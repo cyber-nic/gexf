@@ -32,10 +32,11 @@ type node struct {
 }
 
 type edge struct {
-	XMLName xml.Name `xml:"edge"`
-	ID      string   `xml:"id,attr"`
-	Source  string   `xml:"source,attr"`
-	Target  string   `xml:"target,attr"`
+	XMLName xml.Name     `xml:"edge"`
+	ID      string       `xml:"id,attr"`
+	Source  string       `xml:"source,attr"`
+	Target  string       `xml:"target,attr"`
+	Attr    *[]attrValue `xml:"attvalues>attvalue"`
 }
 
 type meta struct {

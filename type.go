@@ -1,15 +1,15 @@
 package gexf
 
-// GEXFType is an type for values Nodes can hold.
-type GEXFType string
+// Type is an type for values Nodes can hold.
+type Type string
 
 // All the recognized GEXTTypes.
 const (
-	Long       GEXFType = "long"
-	Double     GEXFType = "double"
-	Float      GEXFType = "float"
-	Boolean    GEXFType = "boolean"
-	ListString GEXFType = "liststring"
-	String     GEXFType = "string"
-	AnyURI     GEXFType = "anyURI"
+	Long       Type = "long"
+	Double     Type = "double"
+	Float      Type = "float"
+	Boolean    Type = "boolean"
+	ListString Type = "liststring"
+	String     Type = "string"
+	AnyURI     Type = "anyURI"
 )

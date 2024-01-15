@@ -1,0 +1,4 @@
+github.com/aybabtme/gexf v0.0.0-20140404192608-64c8edfd0d9b h1:YCAoxIfxn61pm7SK+VgAvqBxGtUfkhNaUr1iCk7kuDU=
+github.com/aybabtme/gexf v0.0.0-20140404192608-64c8edfd0d9b/go.mod h1:RdnMY03be/xxQBcbvbJO0jwMjItp4modoygeoiIzZLk=
+github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=
+github.com/google/go-cmp v0.6.0/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
